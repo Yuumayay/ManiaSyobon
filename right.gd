@@ -6,7 +6,6 @@ func _ready():
 	pass # Replace with function body.
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if Input.is_action_pressed("1") and Input.is_action_pressed("2"):
 		frame = 3
